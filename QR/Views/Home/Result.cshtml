@@ -1,0 +1,21 @@
+﻿@model bool
+
+
+@if (Model == false)
+{
+    <div id="fail" style="display:block; margin-top:50px;margin-bottom:50px;">
+        <img id="img1" src="~/Content/Pics/fail.png" style="height:100px;width:100px;" />
+        <span style="color:black; font-size:30px;">...СЛОМАНО!</span>
+    </div>
+
+}
+else
+{
+    <div id="success" style="display:block;margin-top:50px;;margin-bottom:50px;">
+        <img id="img1" src="~/Content/Pics/success.png" style="height:100px;width:100px;" />
+        <span style="color:black; font-size:30px;">Расписание успешно загружено!</span>
+    </div>
+}
+
+
+

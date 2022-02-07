@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <link rel="icon" href="~/Favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="~/Favicon.ico" type="image/x-icon">
+    <title>Расписание занятий</title>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @Styles.Render("~/Content/css")
+
+
+
+
+
+</head>
+
+
+<body class="pt-0">
+
+    <div class="container-fluid body-content ">
+
+        @RenderBody()
+    </div>
+
+
+ 
+
+<nav class="navbar align-bottom mt-5 ">
+    <div class="container-fluid  ">
+        <hr />
+        <footer>
+            <p class="mb-0">&copy; 2020-@DateTime.Now.Year – ЛСД</p>
+        </footer>
+
+    </div>
+
+</nav>
+
+
+</body>
+</html>
