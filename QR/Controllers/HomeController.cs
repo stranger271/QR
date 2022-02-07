@@ -38,6 +38,7 @@ namespace QR.Controllers
 
         public async Task<FileResult> Download(int? page)
         {
+
             PdfSharp.Pdf.PdfDocument PDFDoc;
             try
             {
