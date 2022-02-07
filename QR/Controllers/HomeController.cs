@@ -35,7 +35,6 @@ namespace QR.Controllers
 
         //********************* СКАЧАТЬ РАСПИСАНИЕ **************************
 
-
         public async Task<FileResult> Download(int? page)
         {
 
