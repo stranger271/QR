@@ -58,7 +58,7 @@ namespace QR.Controllers
             }
 
             PdfSharp.Pdf.PdfDocument PDFNewDoc = new PdfSharp.Pdf.PdfDocument();
-            PDFNewDoc.Info.Author = "МОРУЦ - Лищук Сергей Дмитриевич";
+            PDFNewDoc.Info.Author = "МОРУЦ - Лищук Сергей Дмитриевич, 2020г.";
 
 
 
